@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>NugetPackageManager</id>
+    <version>2.8.60318.667</version>
+    <title>NuGet Package Manager</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>http://visualstudiogallery.msdn.microsoft.com/site/27077b70-9dad-4c64-adcf-c7cf6bc9970c/eula?licenseType=None</licenseUrl>
+    <projectUrl>http://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c?SRC=Featured</projectUrl>
+    <iconUrl>http://www.anthonymastrean.com/chocolateypackages/icons/microsoft.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A collection of tools to automate the process of downloading, installing, upgrading, configuring, and removing packages from a VS Project.</description>
+    <summary>A collection of tools to automate the process of downloading, installing, upgrading, configuring, and removing packages from a VS Project.</summary>
+    <tags>nuget package manager visualstudio vsix</tags>
+  </metadata>
+</package>

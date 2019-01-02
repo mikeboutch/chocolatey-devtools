@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>scala.install</id>
+    <version>2.11.12</version>
+    <title>Scala (Install)</title>
+    <authors>Scala Developers</authors>
+    <owners>Scala Developers</owners>
+    <licenseUrl>http://www.scala-lang.org/node/146</licenseUrl>
+    <projectUrl>http://www.scala-lang.org/</projectUrl>
+    <iconUrl>http://tomone.github.io/icons/scala.svg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Scala is a general purpose programming language designed to express common programming patterns in a concise, elegant, and type-safe way.</description>
+    <summary>Scala is a general purpose programming language designed to express common programming patterns in a concise, elegant, and type-safe way.</summary>
+    <releaseNotes />
+    <copyright />
+    <tags>scala java lang</tags>
+    <dependencies>
+      <dependency id="jre8"  />
+    </dependencies>
+  </metadata>
+</package>

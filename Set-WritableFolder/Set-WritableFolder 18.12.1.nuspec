@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Set-WritableFolder</id>
+    <version>18.12.1</version>
+    <title>Make User Writable a Path</title>
+    <authors>Michel.Buczynski@tdsecurities.com</authors>
+    <owners></owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>My package description.</description>
+  </metadata>
+  <files>
+    <file src="tools\chocolateyinstall.ps1" target="tools\chocolateyinstall.ps1" />
+  </files>
+</package>
