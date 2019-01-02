@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id>saltminion</id>
+    <id>saltminion.local</id>
     <version>2018.3.3.1</version>
-    <title>Salt Minion</title>
+    <title>Salt Minion Local</title>
     <authors>SaltStack</authors>
     <owners>SaltStack</owners>
     <licenseUrl>https://github.com/saltstack/salt/blob/develop/LICENSE</licenseUrl>
@@ -18,7 +18,7 @@
       * Use Python 3
       * Rebuilt 2018-11-12 with updated checksums</releaseNotes>
     <copyright />
-    <tags>salt minion admin saltstack</tags>
+    <tags>salt minion admin saltstack local masterless standalone</tags>
     <projectSourceUrl>https://github.com/saltstack/salt</projectSourceUrl>
     <packageSourceUrl>https://github.com/barkingfoodog/ChocolateySaltMinion</packageSourceUrl>
     <docsUrl>https://docs.saltstack.com/en/latest/</docsUrl>
