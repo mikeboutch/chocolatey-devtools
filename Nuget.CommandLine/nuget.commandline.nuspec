@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>nuget.commandline</id>
+    <version>4.8.0.5278</version>
+    <title>Nuget.CommandLine</title>
+    <authors>Microsoft</authors>
+    <owners>chocolatey,nuget-mirror</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://raw.githubusercontent.com/NuGet/NuGet.Client/dev/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/NuGet/NuGet.Client</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/27f780622b37514680f86c7f5e5f7f9bb0a32fe9/icons/nuget.commandline.png</iconUrl>
+    <description>NuGet is the package manager for the Microsoft development platforms including .NET. NuGet gives you access to thousands of packages from other developers on [nuget.org](http://nuget.org), and the NuGet tools let you create, share, and host packages of your own.</description>
+    <summary>NuGet is the package manager for the Microsoft development platforms</summary>
+    <copyright>© .NET Foundation. All rights reserved.</copyright>
+    <tags>nuget dot.net microsoft foss cross-platform</tags>
+  </metadata>
+  <files>
+    <file src="legal\LICENSE.txt" target="legal\LICENSE.txt" />
+    <file src="legal\VERIFICATION.txt" target="legal\VERIFICATION.txt" />
+    <file src="tools\NuGet.exe" target="tools\NuGet.exe" />
+  </files>
+</package>

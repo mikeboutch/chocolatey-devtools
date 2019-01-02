@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>saltminion</id>
+    <version>2018.3.3.1</version>
+    <title>Salt Minion</title>
+    <authors>SaltStack</authors>
+    <owners>SaltStack</owners>
+    <licenseUrl>https://github.com/saltstack/salt/blob/develop/LICENSE</licenseUrl>
+    <projectUrl>https://saltstack.com/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/barkingfoodog/ChocolateySaltMinion/7637618d3d3c498236573d111b9962effce916f1/saltminion/salt_icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This package installs a salt minion on your system as a windows service. The Salt minion receives commands from the central Salt master and replies with the results of said commands. It can also be used in standalone mode to apply states to a machine without a master by using `C:\salt\salt-call.bat --local state.sls [yoursls]` or similar commands with `--local`.
+            Note that this package supports two arguments: /master=yoursaltmaster and /minion=yourminionname (note the installer itself uses /minion-name, but parsing dictionary keys with the `-` is painful).
+  These arguments can be passed to the package via the --params '/master=yoursaltmaster'. The custom salt master is recommended in most environments, the minion name is optional will default to the hostname if not supplied.</description>
+    <summary>Salt Minion Installer</summary>
+    <releaseNotes>* Updated to latest version
+      * Use Python 3
+      * Rebuilt 2018-11-12 with updated checksums</releaseNotes>
+    <copyright />
+    <tags>salt minion admin saltstack</tags>
+    <projectSourceUrl>https://github.com/saltstack/salt</projectSourceUrl>
+    <packageSourceUrl>https://github.com/barkingfoodog/ChocolateySaltMinion</packageSourceUrl>
+    <docsUrl>https://docs.saltstack.com/en/latest/</docsUrl>
+    <mailingListUrl>https://groups.google.com/forum/#!forum/salt-users</mailingListUrl>
+    <bugTrackerUrl>https://github.com/saltstack/salt/issues</bugTrackerUrl>
+    <dependencies>
+      <dependency id="vcredist2008" version="9.0" />
+    </dependencies>
+  </metadata>
+</package>
