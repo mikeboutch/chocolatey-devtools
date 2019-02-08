@@ -49,6 +49,7 @@ Salt-Minion-2018.3.3-Py3-AMD64-Setup.exe /S /minion-name=myminion /master=master
 
 ===============================================================================
 
-Salt-Minion-2018.3.3-Py3-AMD64-Setup.exe /S /custom-config=windows_minion.local /start-minion=0
+Salt-Minion-2018.3.3-Py3-AMD64-Setup.exe /S  /custom-config=minion.local /start-minion=0 /D=c:\tools\saltlocal
 
+C:\tools\saltlocal\bin\Scripts> .\pip.exe install GitPython
 
